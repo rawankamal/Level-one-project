@@ -1,56 +1,123 @@
-
-
-#welcome {color: cornsilk; background-color: rgb(82, 82, 235); padding-left: 50px; font-size: 20px;
-    padding-top: 10px; padding-bottom:10px;
- margin-block-end: 30px;}
- #log { padding-left: 50px;}
-
-#all {padding-left: 200px; padding-right: 200px;  }  
-
-
-
-
-
-
-#F{color: white;
-     background-color: rgb(80, 134, 155); font-size:20px; 
-     
-    
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
-
-#wel{padding: 15px; padding-left: 150px; background-color: (10, 10, 34); 
-    
+/* Header Styles */
+#welcome {
+    background-color: rgb(82, 82, 235);
+    color: cornsilk;
+    font-size: 20px;
+    padding: 10px 0 10px 50px;
 }
 
-li{display: inline-block; padding-left: 20px; color: white; }
-ul{float: right; padding-top: 25px; color: white;
-padding-right: 50px;}
+#log {
+    padding-left: 50px;
+}
 
+/* Navigation Styles */
+ul {
+    float: right;
+    padding: 25px 50px 0 0;
+    color: white;
+}
 
-#img{text-align: center; background-color: rgb(10, 10, 34); margin-top: 1%; }
+li {
+    display: inline-block;
+    padding-left: 20px;
+    color: white;
+}
 
+/* Content Styles */
+#all {
+    padding: 0 200px;
+}
 
-#left{ text-align: center; color: white; background-color:rgb(105, 138, 187); width: 65%; float:right; font-size: 25px;
-    margin-top: 1%;  padding: 0.75%;   margin-bottom: 3%;}
+#left, #right {
+    color: white;
+    font-size: 25px;
+    margin-top: 1%;
+    padding: 0.75%;
+    text-align: center;
+}
 
+#left {
+    background-color: rgb(105, 138, 187);
+    float: right;
+    width: 65%;
+}
 
-#right{ text-align: center; color: white; background-color:rgb(134, 64, 105); width: 31.5%; float:left; font-size: 25px;
-    margin-top: 1%; padding: 0.75%;   margin-bottom: 3%;}  
+#right {
+    background-color: rgb(134, 64, 105);
+    float: left;
+    width: 31.5%;
+}
 
-#links{text-align:center; }
+#img {
+    text-align: center;
+    background-color: rgb(10, 10, 34);
+    margin-top: 1%;
+}
 
+/* Footer Styles */
+#med, #med2 {
+    background-color: rgb(0, 0, 7);
+    margin-top: 1%;
+    padding: 1% 0;
+    text-align: center;
+}
 
+/* Additional Styles */
+#wel {
+    background-color: rgb(10, 10, 34);
+    padding: 15px;
+    padding-left: 150px;
+}
 
-#welp{font-size: 30px; text-align: center; color: rgb(242, 250, 250);  float: right; width: 50%; padding: 1%;} 
-#background{background-image: url(00.png); width: 100%; height: 100%;}
-#info{text-align: center; color: white; font-size: 15px;float: right;  width: 30%;} 
+#welp {
+    color: rgb(242, 250, 250);
+    float: right;
+    font-size: 30px;
+    padding: 1%;
+    text-align: center;
+    width: 50%;
+}
 
+#background {
+    background-image: url(00.png);
+    height: 100%;
+    width: 100%;
+}
 
-#aboutt{background-color: rgb(76, 97, 167) ; text-align: center; font-size: 30px; padding: 3%; margin-top: 1%; color:white;}
+#info {
+    color: white;
+    float: right;
+    font-size: 15px;
+    text-align: center;
+    width: 30%;
+}
 
-#lin{font-size: 25px; text-align:center; padding: 1%; padding-top: 2%; color:rgb(8, 29, 37) ;}
+#aboutt {
+    background-color: rgb(76, 97, 167);
+    color: white;
+    font-size: 30px;
+    margin-top: 1%;
+    padding: 3%;
+    text-align: center;
+}
 
+#lin {
+    color: rgb(8, 29, 37);
+    font-size: 25px;
+    padding: 1% 0;
+    text-align: center;
+}
 
-#med{text-align: center; padding:2%; background-color: rgb(0, 0, 7); margin-top: 1%;}
-#med2{text-align: center; background-color: rgb(0, 0, 7); margin-top: 1%; padding-top:1%; padding-bottom:1%;}
+#links {
+    text-align: center;
+}
+
+#info, #links {
+    margin-bottom: 30px;
+}
